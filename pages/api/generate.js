@@ -13,7 +13,6 @@ Give a background of the characters mentioned here:
  `;
 const generateAction = async (req, res) => {
   // Run first prompt
-console.log(process.env.OPENAI_API_KEY);
 
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)
 
